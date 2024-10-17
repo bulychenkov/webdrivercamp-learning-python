@@ -1,0 +1,14 @@
+0. $x('//ul[@class="vl-flyout-nav__container"]/li/a')
+1. $x('//ul[@class="x-refine__left__nav"]//ul[@class="x-refine__left__nav"]')
+2. $x('//li[@class="x-refine__main__list"][.//div[contains(text(), "Brand")]]')
+3. $x('//li[@name="Brand"][.//span[@class="cbx x-refine__multi-select-cbx" and contains(text(), "adidas")]]')
+4.1 $x('//li[not(@id="") and @class="s-item s-item__pl-on-bottom"]')
+4.2 $x('//li[not(@id="") and @class="s-item s-item__pl-on-bottom"][.//span[contains(text(), "NEW Nike Air Jordan Retro 1 Off White UNC Carolina 9.5 Mens AQ0818-148 Authentic")]]')
+5. $x('//div[@id="gh-eb-My-o"]//li/a')
+
+Pause the page:
+a. Open the developer console
+b. In the developer tools, click on the "Debugger" tab
+c. On the right side of the Debugger pane, go to a section called "Event Listener Breakpoints"
+d. Expand the "Mouse" category and check the box next to "click"
+e. Click on the "My eBay" dropdown, the page will pause with the dropdown open
